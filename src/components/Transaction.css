@@ -1,0 +1,121 @@
+/* Transaction.css */
+
+/* Your existing CSS styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Set your desired background color */
+}
+
+.transaction-container {
+  max-width: 400px;
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='number'],
+input[type='submit'] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red; /* Keep errors in red color */
+  margin-top: 5px; /* Adjust margin */
+  font-size: 14px; /* Adjust font size */
+}
+
+.transaction-status {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Transaction.css */
+
+/* Style for the blue buttons */
+/* Your existing CSS */
+
+/* ... (other styles) */
+
+/* Style for the Transfer button */
+.transfer-button {
+  background-color: #27ae60; /* Green color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.transfer-button:hover {
+  background-color: #219653; /* Darker green on hover */
+}
+
+/* Style for the Request ATM and Next buttons */
+.request-atm-button,
+.next-button {
+  background-color: #3498db; /* Blue color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.request-atm-button:hover,
+.next-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* ... (other styles) */
+
+
+
+/* Add any additional styles as needed */
+.input-with-validation {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-validation input {
+  flex: 1;
+  margin-right: 10px; /* Adjust the spacing between input and checkmark */
+}
+
+.checkmark {
+  color: green;
+  margin-left: 5px; /* Adjust spacing between input and checkmark */
+  vertical-align: middle; /* Align vertically with the input */
+}
+
+
+
+

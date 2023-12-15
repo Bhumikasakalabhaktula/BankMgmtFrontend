@@ -1,0 +1,21 @@
+.confirmation-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: white;
+  }
+  
+  .success-image {
+    width: 100%;
+    height: 100%;
+    /* max-width: 600px; */
+    display: block;
+    /* max-height: 500px; */
+    /* margin: 0 auto 20px; */
+  }
+  
+  .success-heading {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
